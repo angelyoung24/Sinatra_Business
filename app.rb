@@ -5,8 +5,9 @@ get '/' do
 end
 
 get '/about' do
-    @name = 'Angel'
     erb :about
 end
 
-
+get '/main' do
+    erb :main
+end
